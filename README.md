@@ -1,21 +1,21 @@
-# í³‹ Task Board - Kanban-Style Task Management
+# ï¿½ï¿½ï¿½ Task Board - Kanban-Style Task Management
 
 A beautiful, fully-featured Kanban-style task board for managing work visually. Create tasks, drag them across board sections, and track progress in real-time â€” all without authentication.
 
-**Live Demo:** [Coming soon - will be deployed to Vercel]
+**Live Demo:** https://task-board-2j7x.vercel.app/
 
 ## âœ¨ Features
 
-- í¾¯ **Drag-and-Drop Board** - Seamlessly move tasks between columns
-- í³ **Rich Task Details** - Title, description, priority, due dates
-- í±¤ **Guest Accounts** - No login required, automatic anonymous sessions
-- í¾¨ **Modern Design** - Clean, polished interface inspired by Asana and Linear
-- í³± **Responsive** - Works on desktop, tablet, and mobile
+- ï¿½ï¿½ï¿½ **Drag-and-Drop Board** - Seamlessly move tasks between columns
+- ï¿½ï¿½ï¿½ **Rich Task Details** - Title, description, priority, due dates
+- ï¿½ï¿½ï¿½ **Guest Accounts** - No login required, automatic anonymous sessions
+- ï¿½ï¿½ï¿½ **Modern Design** - Clean, polished interface inspired by Asana and Linear
+- ï¿½ï¿½ï¿½ **Responsive** - Works on desktop, tablet, and mobile
 - âš¡ **Real-time Updates** - Instant feedback on all operations
-- í´’ **Secure** - Row Level Security ensures privacy
-- í³Š **Board Stats** - Track total, in-progress, and completed tasks
+- ï¿½ï¿½ï¿½ **Secure** - Row Level Security ensures privacy
+- ï¿½ï¿½ï¿½ **Board Stats** - Track total, in-progress, and completed tasks
 
-## íº€ Quick Start
+## ï¿½ï¿½ï¿½ Quick Start
 
 ### Prerequisites
 - Node.js 16+ and npm
@@ -49,11 +49,11 @@ npm run dev
 
 Visit `http://localhost:5173`
 
-## í³š Full Documentation
+## ï¿½ï¿½ï¿½ Full Documentation
 
 See [SETUP_GUIDE.md](./SETUP_GUIDE.md) for detailed setup, architecture, and deployment instructions.
 
-## í»  Tech Stack
+## ï¿½ï¿½ï¿½ Tech Stack
 
 - React 19 + TypeScript
 - Supabase (PostgreSQL + Auth)
@@ -61,28 +61,28 @@ See [SETUP_GUIDE.md](./SETUP_GUIDE.md) for detailed setup, architecture, and dep
 - Vite
 - CSS 3
 
-## í³¦ Database
+## ï¿½ï¿½ï¿½ Database
 
 Complete schema with RLS policies included. See `supabase_schema.sql` for:
 - `tasks` table with title, description, priority, due_date
 - `labels`, `comments`, `activity_log`, `team_members` for advanced features
 - Full Row Level Security policies
 
-## í¾¯ How It Works
+## ï¿½ï¿½ï¿½ How It Works
 
 1. App loads â†’ Auto-creates guest session via Supabase
 2. Create task â†’ Stored in database with your user_id
 3. Drag task â†’ Status updates immediately
 4. Only you see your tasks (RLS protection)
 
-## í³± Board Sections
+## ï¿½ï¿½ï¿½ Board Sections
 
 - **To Do** - New tasks
 - **In Progress** - Active work
 - **In Review** - Waiting for approval
 - **Done** - Completed tasks
 
-## íº€ Deploy to Vercel
+## ï¿½ï¿½ï¿½ Deploy to Vercel
 
 ```bash
 git push origin main
@@ -91,7 +91,7 @@ git push origin main
 # Deploy!
 ```
 
-## í¾¨ Design Philosophy
+## ï¿½ï¿½ï¿½ Design Philosophy
 
 - Clean, minimal interface
 - Clear visual hierarchy
@@ -99,7 +99,7 @@ git push origin main
 - Smooth transitions and feedback
 - Accessibility-first approach
 
-## í³ License
+## ï¿½ï¿½ï¿½ License
 
 Open source - MIT License
 
